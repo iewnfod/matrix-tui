@@ -1,0 +1,17 @@
+[package]
+name = "matrix-tui"
+version = "0.1.0"
+edition = "2021"
+rust-version = "1.74.0"
+
+[dependencies]
+anyhow = "1.0.86"
+ctrlc = "3.4.4"
+dirs = "5.0.1"
+lazy_static = "1.5.0"
+matrix-sdk = "0.7.1"
+ratatui = { version = "0.27.0", features = ["all-widgets"] }
+serde = { version = "1.0.204", features = ["derive"] }
+serde_json = "1.0.121"
+strum = { version = "0.26.3", features = ["derive"] }
+tokio = { version = "1.39.2", features = ["rt-multi-thread"] }
